@@ -1,9 +1,8 @@
-<%-- 
-    Document   : alunos-cadastrar-ok
-    Created on : 15/10/2015, 05:33:26
-    Author     : Bibiana Borges
---%>
-
+<%@include file="cabecalho.jsp"%>
+<%
+String nome = request.getParameter("txtnome");
+String matr = request.getParameter("txtmatricula");
+%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -12,6 +11,14 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1> Registro Cadastrado com sucesso</h1>
+        <div>
+            <h1> Registro Cadastrado com sucesso</h1>
+            <%=nome%><br />
+            <%=matr%><br />
+            <a href="alunos.jsp">Voltar para Listagem</a>
+            
+            
+        </div>
+        
     </body>
 </html>

@@ -10,7 +10,8 @@
        <!--quando o cliente clicar em enviar vai para pagina de alunos-cadastrar-ok.jsp-->
     <form action="alunos-cadastrar-ok.jsp" method="POST">
         <label>Nome:<input type="text" name="Nome"/><br> </label>
-    <label>Matricula: <input type="text" name ="matricula" /> <br /></label>
+    <label>Matricula: <input type="text" 
+                             name ="txtmatricula" /> <br /></label>
     <label>Num. Disciplinas: <input type ="text" name="disciplinas"/> <br /></label>
     <label>Ativo<input type="checkbox" name="ativo" value ="1" /> <br /> </label>
     <input type="reset" value="Limpar"/>

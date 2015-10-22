@@ -1,5 +1,6 @@
 <%@include file="cabecalho.jsp"%>
 <%
+    // txtnome é o NAME q eu coloquei no input na tela para receber 
 String nome = request.getParameter("txtnome");
 String matr = request.getParameter("txtmatricula");
 %>
